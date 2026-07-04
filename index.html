@@ -1,1 +1,386 @@
-Hai
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nizamudheen T I | Security Data Scientist & AI Engineer</title>
+  <meta name="description" content="Portfolio of Nizamudheen T I, an experienced Security Data Scientist and AI Engineer specializing in Cyber Security Knowledge Graphs, LLMOps, Context Graphs, Agentic Systems, and RAG.">
+  <meta name="keywords" content="Security Data Scientist, AI Engineer, Cyber Security Knowledge Graph, Context Graph, LLMOps, Agentic Systems, RAG, Portfolio">
+  <meta name="author" content="Nizamudheen T I">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-indicator"></div>
+
+  <!-- Canvas Background for neural network nodes -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="gradient-glow-1"></div>
+  <div class="gradient-glow-2"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="container navbar">
+      <a href="#hero" class="logo" id="nav-logo">
+        Nizamudheen<span>T I</span>
+      </a>
+      <div class="nav-right">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left Column: Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span></span> Open to Opportunities
+          </div>
+          <h1 class="hero-title">Nizamudheen T I</h1>
+          <div class="hero-subtitle">
+            <span id="typing-role">Security Data Scientist</span><span class="type-cursor">|</span>
+          </div>
+          <p class="hero-desc">
+            Experienced Data Scientist specializing in <strong>Generative AI</strong>, <strong>Cyber Security Knowledge Graphs</strong>, <strong>Context Graphs</strong>, <strong>LLMOps</strong>, <strong>Agentic Systems</strong>, and <strong>RAG</strong> analytics. Skilled in designing, fine-tuning, and deploying LLM-based systems with robust security practices, backed by a Master’s in Artificial Intelligence with top academic distinction.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary" id="btn-contact">Get in Touch</a>
+            <a href="Nizamudheen T I Resume.pdf" class="btn btn-secondary" id="btn-resume" download>
+              Download Resume
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </a>
+          </div>
+          <ul class="social-links">
+            <li>
+              <a href="https://linkedin.com/in/nizamudheenti" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile" id="link-linkedin">
+                in
+              </a>
+            </li>
+            <li>
+              <a href="mailto:nizamudma@gmail.com" class="social-link" aria-label="Email Address" id="link-email-hero">
+                ✉
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right Column: Interactive Terminal Widget -->
+        <div class="terminal-widget" id="terminal-widget-container">
+          <div class="terminal-header">
+            <div class="terminal-buttons">
+              <span class="terminal-btn red"></span>
+              <span class="terminal-btn yellow"></span>
+              <span class="terminal-btn green"></span>
+            </div>
+            <div class="terminal-title">nizam@cyber-agent:~</div>
+            <div style="width: 30px;"></div>
+          </div>
+          <div class="terminal-body" id="terminal-body">
+            <p class="terminal-output"><span class="violet-text">Initializing Nizamudheen OS v2.5...</span></p>
+            <p class="terminal-output">Welcome! Click shortcuts below or type <span class="cyan-text">help</span> to begin.</p>
+            
+            <div class="terminal-input-line">
+              <span class="terminal-prompt">nizam@cyber-agent:~$&nbsp;</span>
+              <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" placeholder="type here...">
+            </div>
+          </div>
+          <!-- Command Quick Chips -->
+          <div class="terminal-chips">
+            <button class="terminal-chip" data-cmd="about">about</button>
+            <button class="terminal-chip" data-cmd="skills">skills</button>
+            <button class="terminal-chip" data-cmd="experience">experience</button>
+            <button class="terminal-chip" data-cmd="hack">hack</button>
+            <button class="terminal-chip" data-cmd="clear">clear</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title" id="experience-title">Work <span>Experience</span></h2>
+      <div class="timeline">
+        
+        <!-- Experience Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-header">
+            <div class="timeline-role">
+              <h3>Data Scientist</h3>
+              <span class="timeline-date">July 2023 – Present</span>
+            </div>
+            <div class="timeline-company">Prevalent AI, Cochin</div>
+          </div>
+          <div class="timeline-body">
+            <ul class="timeline-list">
+              <li>Designed and implemented client-facing security dashboards to correlate vulnerability reduction with technology stacks and map internal threat contexts using <strong>Cyber Security Knowledge Graphs</strong>.</li>
+              <li>Developed LLM-based compensating control mapping and RAG security guardrails, enabling security teams to automatically identify relevant controls and mitigate security risks.</li>
+              <li>Executed a Proof-of-Concept for <strong>Agentic AI workflows</strong> to establish an <strong>Agentic Data Fabric</strong>, enhancing data source onboarding and real-time security insight delivery using remote AI agents and Model Context Protocol (MCP) servers.</li>
+              <li>Led data science, context engineering, and <strong>LLMOps</strong> efforts for a GenAI-powered security platform, deploying advanced RAG methods and Small Language Models (SLMs).</li>
+              <li>Optimized SLM inference for production workflows using vLLM, KV caching, prompt caching, PEFT (LoRA), and quantization, significantly reducing latency and memory usage.</li>
+              <li>Designed and implemented a Data Quality measurement framework to evaluate data reliability for feeding downstream Knowledge and Context Graphs.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-header">
+            <div class="timeline-role">
+              <h3>Junior Data Scientist</h3>
+              <span class="timeline-date">July 2022 – July 2023</span>
+            </div>
+            <div class="timeline-company">Prevalent AI, Cochin</div>
+          </div>
+          <div class="timeline-body">
+            <ul class="timeline-list">
+              <li>Designed and implemented an agent-based synthetic data generation module to create highly correlated multidimensional data across cybersecurity sources for testing threat detection systems.</li>
+              <li>Built a text feature extraction system to parse temporal expressions in chat data, improving NLP pipeline accuracy for downstream security chatbot applications.</li>
+              <li>Applied topic modeling and anomaly detection on SQL query logs to detect injection attempts, strengthening system security and reliability.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title" id="skills-title">Technical <span>Skills</span></h2>
+      <div class="skills-grid">
+        
+        <!-- Skill Card 1 -->
+        <div class="skill-card">
+          <div class="skill-card-icon">🧠</div>
+          <h3 class="skill-card-title">LLMOps & RAG</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">LLMOps Pipelines</span>
+            <span class="skill-tag">Advanced RAG</span>
+            <span class="skill-tag">LangChain</span>
+            <span class="skill-tag">LangGraph</span>
+            <span class="skill-tag">LangFuse</span>
+            <span class="skill-tag">vLLM</span>
+            <span class="skill-tag">AWS Bedrock</span>
+            <span class="skill-tag">Azure OpenAI</span>
+            <span class="skill-tag">PEFT (LoRA)</span>
+            <span class="skill-tag">Transformers</span>
+          </div>
+        </div>
+
+        <!-- Skill Card 2 -->
+        <div class="skill-card">
+          <div class="skill-card-icon">🕸️</div>
+          <h3 class="skill-card-title">Knowledge & Context Graphs</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Knowledge Graphs</span>
+            <span class="skill-tag">Context Graphs</span>
+            <span class="skill-tag">Graph Analytics</span>
+            <span class="skill-tag">Entity Resolution</span>
+            <span class="skill-tag">SQL Anomaly Detection</span>
+            <span class="skill-tag">Topic Modeling</span>
+          </div>
+        </div>
+
+        <!-- Skill Card 3 -->
+        <div class="skill-card">
+          <div class="skill-card-icon">🤖</div>
+          <h3 class="skill-card-title">Agentic Systems</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Agentic AI Workflows</span>
+            <span class="skill-tag">Agentic Data Fabric</span>
+            <span class="skill-tag">MCP (Model Context Protocol)</span>
+            <span class="skill-tag">Multi-Agent Systems</span>
+            <span class="skill-tag">Control Mapping</span>
+          </div>
+        </div>
+
+        <!-- Skill Card 4 -->
+        <div class="skill-card">
+          <div class="skill-card-icon">💻</div>
+          <h3 class="skill-card-title">Programming</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <!-- Skill Card 5 -->
+        <div class="skill-card">
+          <div class="skill-card-icon">📊</div>
+          <h3 class="skill-card-title">Data & Visualization</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">PySpark</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Seaborn</span>
+          </div>
+        </div>
+
+        <!-- Skill Card 6 -->
+        <div class="skill-card">
+          <div class="skill-card-icon">☁️</div>
+          <h3 class="skill-card-title">Cloud & Databases</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">ArgoCD</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Redis</span>
+            <span class="skill-tag">Milvus</span>
+            <span class="skill-tag">FAISS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications Section -->
+  <section id="education">
+    <div class="container">
+      <div class="edu-cert-container">
+        
+        <!-- Education column -->
+        <div>
+          <h2 class="section-title" id="education-title">Education</h2>
+          <div class="edu-list">
+            
+            <div class="edu-item">
+              <div class="academic-badge">Academic Distinction</div>
+              <h3 class="edu-degree">Master of Technology in Artificial Intelligence</h3>
+              <div class="edu-school">College of Engineering, Trivandrum</div>
+              <div class="edu-meta">
+                <span>2020 - 2022</span>
+                <span class="edu-cgpa">CGPA: 9.64</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <h3 class="edu-degree">Advanced Diploma in Artificial Intelligence</h3>
+              <div class="edu-school">National Institute of Electronics and Information Technology, Calicut</div>
+              <div class="edu-meta">
+                <span>2018 - 2019</span>
+                <span class="edu-cgpa">CGPA: 9.2</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <h3 class="edu-degree">Bachelor of Technology in Computer Science & Engineering</h3>
+              <div class="edu-school">LBS College of Engineering, Kasaragod</div>
+              <div class="edu-meta">
+                <span>2014 - 2018</span>
+                <span class="edu-cgpa">CGPA: 6.78</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Certifications column -->
+        <div>
+          <h2 class="section-title" id="certifications-title">Certifications</h2>
+          <div class="cert-grid">
+            
+            <div class="cert-card">
+              <div class="cert-icon">✓</div>
+              <div class="cert-info">
+                <h4>Architecting AI Solutions</h4>
+                <p>Coursera</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-icon">✓</div>
+              <div class="cert-info">
+                <h4>Advanced LLMOps</h4>
+                <p>LinkedIn</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-icon">✓</div>
+              <div class="cert-info">
+                <h4>Generative AI with LLMs</h4>
+                <p>DeepLearning.ai</p>
+              </div>
+            </div>
+
+            <div class="cert-card">
+              <div class="cert-icon">✓</div>
+              <div class="cert-info">
+                <h4>IBM AI Engineering & Data Science</h4>
+                <p>Coursera</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container contact-container">
+      <div class="contact-card">
+        <h2 class="contact-title" id="contact-heading">Get In Touch</h2>
+        <p class="contact-desc">
+          Feel free to reach out for collaborations, project opportunities, or just to chat about Cyber Security Graphs, Agentic AI, and LLMOps.
+        </p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <span class="contact-value"><a href="mailto:nizamudma@gmail.com" id="link-email-body">nizamudma@gmail.com</a></span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value"><a href="tel:+918157876001">+91 81578 76001</a></span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Cochin, Kerala, India</span>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: center; gap: 1rem;">
+          <a href="https://linkedin.com/in/nizamudheenti" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-linkedin-contact">
+            Connect on LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p class="copyright">&copy; 2026 Nizamudheen T I. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
