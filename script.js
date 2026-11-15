@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Typewriter Effect for Hero Subtitle
   const subroles = [
-    "Security Data Scientist",
+    "Senior Security Data Scientist",
     "LLMOps Specialist",
     "Cyber Security Knowledge Graph Architect",
     "Agentic Systems Engineer",
@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <span class="cyan-text">clear</span>       - Clear workspace console`,
       
       about: () => `<span class="white-text">Nizamudheen T I</span>
-Security Data Scientist specializing in:
+Senior Security Data Scientist specializing in:
   - Cyber Security Knowledge Graphs & Context Graphs
   - LLMOps pipelines & Guardrail architectures
   - Agentic Systems & Advanced RAG frameworks`,
@@ -235,7 +235,9 @@ Security Data Scientist specializing in:
   - <span class="violet-text">Security ML</span>  : Anomaly Detection, Injection Defense, SQL log analytics`,
 
       experience: () => `Roles at <span class="white-text">Prevalent AI</span>:
-  - <span class="cyan-text">Data Scientist</span> (July 2023 - Present)
+  - <span class="cyan-text">Senior Data Scientist</span> (July 2026 - Present)
+    Semantic record linkage in Knowledge Graphs across multi-vendor security sources.
+  - <span class="cyan-text">Data Scientist</span> (July 2023 - July 2026)
     PoC Agentic Data Fabric, SLM optimization, RAG monitoring.
   - <span class="cyan-text">Junior Data Scientist</span> (July 2022 - July 2023)
     Cybersecurity synthetic data, temporal log topic modeling.`,
